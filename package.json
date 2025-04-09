@@ -8,6 +8,7 @@
     "react": "^18.3.1", // Use appropriate latest versions
     "react-dom": "^18.3.1"
     // Add "web-vitals" if you use Create React App standard reporting
+    //
   },
   "devDependencies": {
     "gh-pages": "^6.1.1" // Or latest version
