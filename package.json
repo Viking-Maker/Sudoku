@@ -1,0 +1,45 @@
+{
+  "name": "react-sudoku-game",
+  "version": "0.1.0",
+  "private": true,
+  // IMPORTANT: Replace with your GitHub username and repository name
+  "homepage": "https://<YOUR_USERNAME>.github.io/<YOUR_REPO_NAME>",
+  "dependencies": {
+    "react": "^18.3.1", // Use appropriate latest versions
+    "react-dom": "^18.3.1"
+    // Add "web-vitals" if you use Create React App standard reporting
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1" // Or latest version
+    // You'll also typically have "react-scripts" if using Create React App
+  },
+  "scripts": {
+    // These scripts assume you are using Create React App or similar setup
+    // If not, adjust the 'build' script accordingly.
+    "start": "react-scripts start", // Or your dev server command
+    "build": "react-scripts build", // Or your build command
+    "test": "react-scripts test", // Or your test command
+    "eject": "react-scripts eject",
+    // Scripts for deploying to GitHub Pages
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
